@@ -7,8 +7,8 @@ public class Main {
       //System.out.println(object.string);
      //java: string has private access in com.driver.RWOnly
 
-      object.setString("Encapsulation in Java");
-      String string=object.getString();
+      object.setName("Encapsulation in Java");
+      String string=object.getName();
       System.out.println(string);
   }
 }
